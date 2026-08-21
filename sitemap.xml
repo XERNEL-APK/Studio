@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static sitemap — this project has no build step, so this file is
+  hand-maintained. When you add a new application, add one <url> entry
+  below (see README § "Adding a new application"). The CI workflow in
+  .github/workflows/validate.yml fails the build if an app id in
+  data/apps.json is missing from this file, as a safety net.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://xernel-apk.github.io/studio/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://xernel-apk.github.io/studio/app.html?id=xernel-tools</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xernel-apk.github.io/studio/app.html?id=xernel-camera</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xernel-apk.github.io/studio/app.html?id=xernel-terminal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

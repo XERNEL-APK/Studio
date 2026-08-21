@@ -1,0 +1,50 @@
+{
+    "id": "xernel-camera",
+    "name": "XERNEL Camera",
+    "shortDescription": "A fast, manual-friendly camera app with RAW support.",
+    "description": "XERNEL Camera puts manual controls front and center: shutter speed, ISO, focus, and white balance are one tap away, with RAW capture for photographers who want full control in post. A streamlined auto mode is there for when you just want to point and shoot.\n\nThere's no cloud upload and no login wall. Photos stay on your device, in the format you choose.",
+    "version": "2.0.1",
+    "versionCode": 9,
+    "category": "Photography",
+    "tags": [
+        "camera",
+        "photography",
+        "photo-editor",
+        "raw",
+        "manual-controls"
+    ],
+    "icon": "assets/apps/xernel-camera/icon.png",
+    "cover": "assets/apps/xernel-camera/cover.png",
+    "apk": {
+        "url": "https://github.com/xernel-apk/xernel-camera/releases/download/v2.0.1/xernel-camera-v2.0.1.apk",
+        "size": "24.1 MB",
+        "sha256": "8b2f5d9a3c7e1b6f4a0d8c2e9b5f3a7d1c6e0b4a9f2d8c5e3b1a7f0d4c9e2b6a"
+    },
+    "requirements": {
+        "android": "9.0+",
+        "architecture": [
+            "arm64-v8a"
+        ]
+    },
+    "screenshots": [
+        "assets/apps/xernel-camera/screenshot-1.png",
+        "assets/apps/xernel-camera/screenshot-2.png",
+        "assets/apps/xernel-camera/screenshot-3.png"
+    ],
+    "developer": {
+        "name": "XERNEL",
+        "github": "https://github.com/xernel-apk"
+    },
+    "social": {
+        "github": "https://github.com/xernel-apk",
+        "instagram": "https://instagram.com/xernelapk"
+    },
+    "releaseNotes": [
+        "Added RAW (DNG) capture support",
+        "New manual focus peaking overlay",
+        "Improved low-light metering"
+    ],
+    "featured": false,
+    "published": "2026-01-15",
+    "updated": "2026-08-01"
+}

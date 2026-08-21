@@ -1,0 +1,52 @@
+{
+    "id": "xernel-tools",
+    "name": "XERNEL Tools",
+    "shortDescription": "An all-in-one Android utility toolkit for power users.",
+    "description": "XERNEL Tools bundles the everyday utilities Android power users reach for most: a fast file manager, a storage analyzer, an app manager, and a lightweight security scanner. It's built to stay out of your way, favoring clear controls over clutter, and it runs comfortably on modest hardware.\n\nEverything works offline. No account, no ads, no background tracking — just the tools, ready when you open the app.",
+    "version": "1.4.2",
+    "versionCode": 18,
+    "category": "Tools",
+    "tags": [
+        "android",
+        "tools",
+        "utility",
+        "file-manager",
+        "security"
+    ],
+    "icon": "assets/apps/xernel-tools/icon.png",
+    "cover": "assets/apps/xernel-tools/cover.png",
+    "apk": {
+        "url": "https://github.com/xernel-apk/xernel-tools/releases/download/v1.4.2/xernel-tools-v1.4.2.apk",
+        "size": "12.8 MB",
+        "sha256": "3f6a9c1e2d8b4a7f0c5e9d2b6a1f8e3c7d4b9a0f2e6c1d8b5a3f9e0c7d2b4a6f"
+    },
+    "requirements": {
+        "android": "8.0+",
+        "architecture": [
+            "arm64-v8a",
+            "armeabi-v7a"
+        ]
+    },
+    "screenshots": [
+        "assets/apps/xernel-tools/screenshot-1.png",
+        "assets/apps/xernel-tools/screenshot-2.png",
+        "assets/apps/xernel-tools/screenshot-3.png"
+    ],
+    "developer": {
+        "name": "XERNEL",
+        "github": "https://github.com/xernel-apk"
+    },
+    "social": {
+        "github": "https://github.com/xernel-apk",
+        "telegram": "https://t.me/xernelapk"
+    },
+    "releaseNotes": [
+        "Added storage analyzer with category breakdown",
+        "Reworked app manager for faster batch actions",
+        "Fixed a crash when scanning large SD cards",
+        "General performance improvements"
+    ],
+    "featured": true,
+    "published": "2025-11-02",
+    "updated": "2026-07-22"
+}

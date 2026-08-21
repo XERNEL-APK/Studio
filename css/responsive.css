@@ -1,0 +1,78 @@
+/* ==========================================================================
+   XERNEL APK — responsive.css
+   Breakpoints: 1280px+ desktop-wide, 1024px desktop, 768px tablet, <768px mobile.
+   ========================================================================== */
+
+/* ---------- Desktop-wide: roomier grid ------------------------------------ */
+@media (min-width: 1280px) {
+  .app-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* ---------- Tablet (≤1024px) ----------------------------------------------- */
+@media (max-width: 1024px) {
+  .container { padding-inline: var(--space-4); }
+
+  .app-grid,
+  .related-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .detail-layout { grid-template-columns: 1fr; }
+  .detail-side { position: static; }
+
+  .main-nav { gap: var(--space-4); }
+}
+
+/* ---------- Mobile (≤767px) ------------------------------------------------- */
+@media (max-width: 767px) {
+  :root { --space-7: 36px; --space-8: 44px; --space-9: 64px; }
+
+  .container { padding-inline: var(--space-4); }
+
+  .section { padding-block: var(--space-6); }
+  .section__title { font-size: var(--text-xl); }
+  .section__header { align-items: center; }
+
+  /* Header: collapse nav into drawer, search wraps to its own full-width row */
+  .site-header__inner { flex-wrap: wrap; height: auto; padding-block: var(--space-3); row-gap: var(--space-3); }
+  .main-nav { display: none; }
+  .menu-toggle { display: inline-flex; }
+  .brand__name { font-size: var(--text-base); }
+  .header-actions { order: 2; }
+  .header-search { order: 3; flex: 1 1 100%; max-width: none; }
+
+  /* Grids collapse to a single column */
+  .app-grid, .related-grid { grid-template-columns: 1fr; }
+
+  /* Footer */
+  .footer__grid { grid-template-columns: 1fr; gap: var(--space-6); padding-block: var(--space-6); }
+  .footer__bottom { flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+
+  /* Detail page */
+  .detail-cover { aspect-ratio: 1 / 1; min-height: 200px; }
+  .detail-header { flex-direction: column; margin-top: -40px; padding-inline: var(--space-2); }
+  .detail-header__icon { width: 80px; height: 80px; }
+  .detail-header__name { font-size: var(--text-2xl); }
+  .detail-actions .btn { flex: 1; }
+
+  .screenshot-thumb { width: 148px; }
+
+  /* Room for the sticky download bar so it never covers content */
+  .detail-page main { padding-bottom: 92px; }
+  .sticky-download { display: block; }
+
+  /* Lightbox controls tuck to the edges and shrink slightly */
+  .lightbox { padding: var(--space-4); }
+  .lightbox__close, .lightbox__prev, .lightbox__next { width: 40px; height: 40px; }
+  .lightbox__close { top: var(--space-3); right: var(--space-3); }
+  .lightbox__prev { left: var(--space-2); }
+  .lightbox__next { right: var(--space-2); }
+
+  .panel { padding: var(--space-5); }
+
+  .error-page__code { font-size: 4rem; }
+}
+
+/* ---------- Small phones (≤375px) ------------------------------------------- */
+@media (max-width: 375px) {
+  .btn--lg { padding: 0.85em 1.2em; }
+  .app-card { padding: var(--space-4); }
+}

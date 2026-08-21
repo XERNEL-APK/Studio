@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>XERNEL APK</title>
+  <link>https://xernel-apk.github.io/studio/</link>
+  <description>New and updated applications on XERNEL APK, an independent Android application marketplace.</description>
+  <language>en</language>
+  <lastBuildDate>Thu, 20 Aug 2026 06:22:53 GMT</lastBuildDate>
+  <item>
+    <title>XERNEL Camera</title>
+    <link>https://xernel-apk.github.io/studio/app.html?id=xernel-camera</link>
+    <guid isPermaLink="true">https://xernel-apk.github.io/studio/app.html?id=xernel-camera</guid>
+    <description>A fast, manual-friendly camera app with RAW support.</description>
+    <category>Photography</category>
+    <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>XERNEL Tools</title>
+    <link>https://xernel-apk.github.io/studio/app.html?id=xernel-tools</link>
+    <guid isPermaLink="true">https://xernel-apk.github.io/studio/app.html?id=xernel-tools</guid>
+    <description>An all-in-one Android utility toolkit for power users.</description>
+    <category>Tools</category>
+    <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>XERNEL Terminal</title>
+    <link>https://xernel-apk.github.io/studio/app.html?id=xernel-terminal</link>
+    <guid isPermaLink="true">https://xernel-apk.github.io/studio/app.html?id=xernel-terminal</guid>
+    <description>A clean, fast terminal emulator for on-device development.</description>
+    <category>Development</category>
+    <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

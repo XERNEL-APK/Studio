@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xernel-apk.github.io/studio/sitemap.xml

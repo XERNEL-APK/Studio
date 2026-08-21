@@ -1,0 +1,44 @@
+{
+    "id": "xernel-terminal",
+    "name": "XERNEL Terminal",
+    "shortDescription": "A clean, fast terminal emulator for on-device development.",
+    "description": "XERNEL Terminal is a lightweight terminal emulator built for developers who work directly on their Android device. It supports multiple sessions, a customizable key row for symbols that are awkward to reach on mobile, and a legible monospace layout tuned for small screens.\n\nStill in active beta — feedback shapes the roadmap.",
+    "version": "0.9.6",
+    "versionCode": 5,
+    "category": "Development",
+    "tags": [
+        "terminal",
+        "development",
+        "linux",
+        "shell",
+        "developer-tools"
+    ],
+    "icon": "assets/apps/xernel-terminal/icon.png",
+    "cover": "assets/apps/xernel-terminal/cover.png",
+    "apk": {
+        "url": "https://github.com/xernel-apk/xernel-terminal/releases/download/v0.9.6/xernel-terminal-v0.9.6.apk",
+        "size": "9.6 MB"
+    },
+    "requirements": {
+        "android": "7.0+",
+        "architecture": [
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86_64"
+        ]
+    },
+    "screenshots": [
+        "assets/apps/xernel-terminal/screenshot-1.png",
+        "assets/apps/xernel-terminal/screenshot-2.png"
+    ],
+    "developer": {
+        "name": "XERNEL",
+        "github": "https://github.com/xernel-apk"
+    },
+    "social": {
+        "github": "https://github.com/xernel-apk"
+    },
+    "featured": false,
+    "published": "2026-03-10",
+    "updated": "2026-05-30"
+}

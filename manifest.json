@@ -1,0 +1,25 @@
+{
+    "name": "XERNEL APK",
+    "short_name": "XERNEL",
+    "description": "An independent, static Android application marketplace.",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#080A08",
+    "theme_color": "#080A08",
+    "icons": [
+        {
+            "src": "assets/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
